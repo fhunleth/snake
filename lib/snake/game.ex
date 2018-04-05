@@ -34,6 +34,7 @@ defmodule Snake.Game do
     |> schedule_next_tick()
     |> loop()
     |> fini()
+
     :ok
   end
 
