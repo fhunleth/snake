@@ -61,8 +61,8 @@ defmodule Snake.Game do
 
   # vim
   defp handle_key(state, ?h), do: %{state | direction: :left}
-  defp handle_key(state, ?j), do: %{state | direction: :up}
-  defp handle_key(state, ?k), do: %{state | direction: :down}
+  defp handle_key(state, ?k), do: %{state | direction: :up}
+  defp handle_key(state, ?j), do: %{state | direction: :down}
   defp handle_key(state, ?l), do: %{state | direction: :right}
 
   # wasd
