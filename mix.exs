@@ -19,7 +19,7 @@ defmodule Snake.MixProject do
 
   defp deps do
     [
-      {:ex_ncurses, github: "jfreeze/ex_ncurses"},
+      {:ex_ncurses, "~> 0.3"},
       {:logger_file_backend, "~> 0.0.10"}
     ]
   end
